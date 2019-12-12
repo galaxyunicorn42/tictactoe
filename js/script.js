@@ -1,7 +1,12 @@
+let currentPlayer="x"
+let turnsTaken=0 
+let hasGameended=false
 
-
-
-
+function performLogic(buttonID,tileID) {
+    $(buttonID).hide();
+    $(tileID).html(currentPlayer);
+    
+}
 
 
 
